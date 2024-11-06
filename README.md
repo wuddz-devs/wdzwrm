@@ -23,6 +23,35 @@
 ## Prerequisites
  - Can Be Distributed As An Executable For Windows/Linux Or As A Package To Install With Python On The System.
 
+### Datacenters
+```
+all
+akamai
+alibaba
+amazon
+aws_cloudfront
+aws_ec2
+aws_s3
+bigo
+bing
+cloudflare
+digitalocean
+facebook
+fastly
+github
+google
+google_cloud
+linode
+microsoft
+netflix
+openai
+oracle
+telegram
+twitter
+zenlayer
+zoom
+```
+
 ### Usage
 Scan Servers In 's.txt' For Valid User 'admin' & Password 'admin@123' Using 1000 threads
 ```
