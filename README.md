@@ -16,6 +16,7 @@
  - Encrypt/Decrypt Hits With A Password (Can Only Be Decrypted With This Program)
  - Clean/Delete All Input Files (Total Stealth)
  - Password Protected Program So Even If Found Can't Be Used Without Password
+ - All In 1 Lightweight Memory Efficient Application At 14 Mb You Can't Find That Anywhere.
  - Made By A Pentester For Pentesting &Or Network Administrator Purposes
  - Hit Me Up & Let Me Know, Serious Inquiries Only
 
@@ -47,9 +48,29 @@ Scan Servers In 's.txt' For Users In 'u.txt' & Passwords In 'p.txt' & Stealthily
 ```
 wrm.exe -s s.txt -u u.txt -p p.txt -clean
 ```
+Execute Command "whoami" On Remote Servers With Valid Creds In 'c.txt' & Save Command Output To "cmd_output.txt" File.
+```
+wrm.exe -c c.txt -cmd whoami -co
+```
+Upload 'a.txt' Local File & Save As Remote File 'b.txt' On Remote Servers Using Valid Creds In 'c.txt'.
+```
+wrm.exe -c c.txt -lf a.txt -rf b.txt -tr
+```
+Upload 'a.txt' Local File & Save As Remote File 'C:\Users\User\Documents\Up\b.txt' On Remote Servers Using Valid Creds In 'c.txt' Making New Directory "Up" For Remote File.
+```
+wrm.exe -c c.txt -lf a.txt -rf b.txt -tr -md
+```
+Download 'b.txt' Remote File From Remote Servers Saved As 'a.txt' Local File Using Valid Creds In 'c.txt'.
+```
+wrm.exe -c c.txt -lf a.txt -rf b.txt -dn
+```
+Execute Local Powershell Script 'a.ps1' On Remote Servers With Valid Creds In 'c.txt' & Print Output To Screen.
+```
+wrm.exe -c c.txt -pss a.ps1
+```
 
 ## Illustration Video:
-...Pending....
+https://mega.nz/file/RG1AXR4K#FuSytedC1m0HxymzDAm1VAVXPH6-O1FXB0nK2kQ1150
 
 ## Contact Info:
  - Email:     wuddz_devs@protonmail.com
